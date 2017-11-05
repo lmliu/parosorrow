@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+
+  font-family: Georgia;
+}
+
+section.section-body {
+  margin-bottom: 200px;
+}
+
+div.section-wrapper {
+  margin: 0 10%;
+}
+
+div#about-wrapper, section#emotion-system {
+  display: flex;
+}
+
+div#landing-wrapper {
+  padding-top: 10%;
+}
+
+/* landing */
+section#landing {
+  height: 100%;
+  width: 100%;
+
+  background-color: #231F20;
+  color: #fff;
+}
+
+h1.landing-title {
+  font-size: 4em;
+}
+
+div#subtext-wrap {
+  margin-top: 30px;
+}
+
+p#landing-text {
+
+  margin-top: 7px;
+
+  font-size: 0.7em;
+  letter-spacing: 3px;
+  font-weight: 100;
+
+  opacity: 0.7;
+}
+
+div#landing-link-wrapper {
+  width:100%;
+
+  position: absolute;
+  top:90vh;
+  transform:translateY(-100%);
+
+  display: flex;
+  justify-content: center;
+}
+
+a#landing-link {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+
+a#landing-link:hover {
+  opacity: 0.5;
+  transition: opacity 0.75s ease 0s;
+}
+
+h2.section-title {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+
+/* about */
+section#about {
+  height: 60%;
+  width: 100%;
+
+  margin-top: 200px;
+
+  display: flex;
+  align-items: center;
+}
+
+
+div#about-wrapper {
+  align-items: center;
+}
+
+/* emotion-system */
+section#emotion-system {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+div.about-wraps {
+  width: 50%;
+}
+
+div.standalone-title {
+  width: 30%;
+}
+div#es-text {
+  width: 70%;
+}
+
+p.content-text {
+  margin-top: 20px;
+
+  font-size: 0.85em;
+  opacity: 0.4;
+
+  letter-spacing: 1.25px;
+}
+
+/* emotion system diagram */
+img#es-diag-img {
+  width: 100%;
+}
+
+/* button fun */
+
+div.button-wrap {
+  margin: 40px 0;
+}
+
+div#digital-download {
+  display: flex;
+  justify-content: center;
+}
+
+a.download-btn {
+  background-color: #F8BA53;
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7em;
+  letter-spacing: 1.5px;
+}
+
+/* process */
+div#photo-library {
+  margin: 100px 0;
+}
+
+div#photo-lib-wrap {
+  text-align: center;
+}
+
+img.photo-lib-img {
+  width: 400px;
+  margin-right: 20px;
+  margin-left: -(10px);
+  margin-top: 20px;
+}
+
+/* footer */
+
+hr#footer-hr {
+  opacity: 0.3;
+}
+div#footer-flex-wrapper {
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#footer-wrapper {
+  text-align: center;
+}
+
+img#ig-logo {
+  height: 18px;
+  width: 18px;
+
+  margin-bottom: 20px;
+
+  opacity: 0.5;
+}
+
+img#ig-logo:hover {
+  opacity: 1;
+}
+
+p#footer-text {
+  font-family: "Avenir", "Helvetica", sans-serif;
+  color: #C8C8C8;
+  font-size: 0.7em;
+}
