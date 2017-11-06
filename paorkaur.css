@@ -122,12 +122,14 @@ p.content-text {
 /* emotion system diagram */
 img#es-diag-img {
   width: 100%;
+
+  margin-top: 40px;
 }
 
 /* button fun */
 
 div.button-wrap {
-  margin: 40px 0;
+  margin-top: 60px;
 }
 
 div#digital-download {
@@ -142,6 +144,11 @@ a.download-btn {
   color: #fff;
   font-size: 0.7em;
   letter-spacing: 1.5px;
+}
+
+a.download-btn:hover {
+  background-color: #ffd38c;
+  transition: background-color 0.7s ease 0s;
 }
 
 /* process */
@@ -183,11 +190,6 @@ img#ig-logo {
 
   margin-bottom: 20px;
 
-  opacity: 0.5;
-}
-
-img#ig-logo:hover {
-  opacity: 1;
 }
 
 p#footer-text {
