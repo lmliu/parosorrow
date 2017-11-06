@@ -7,7 +7,7 @@ html, body {
   height: 100%;
   width: 100%;
 
-  font-family: Georgia;
+  font-family: Georgia, serif;
 }
 
 section.section-body {
@@ -180,6 +180,7 @@ img.photo-lib-img {
 /* poetry */
 div#poetry-photos {
   width: 100%;
+  margin: 100px 0;
   text-align: center;
 }
 
