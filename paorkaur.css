@@ -22,14 +22,8 @@ div.section-wrapper-lg {
   margin: 0 10%;
 }
 
-div#about-wrapper, section#emotion-system {
+div#about-wrapper {
   display: flex;
-}
-
-@media screen and (max-width: 699px) {
-  section#emotion-system {
-    display: inline-block;
-  }
 }
 
 div#landing-wrapper {
@@ -116,20 +110,13 @@ div.about-wraps {
   width: 50%;
 }
 
-div.standalone-title {
-  width: 30%;
-}
-div#es-text {
-  width: 70%;
-}
-
 p.content-text {
   margin-top: 20px;
 
   font-size: 0.85em;
   opacity: 0.4;
-
-  letter-spacing: 1.25px;
+  line-height: 145%;
+  letter-spacing: 1px;
 }
 
 /* emotion system diagram */
