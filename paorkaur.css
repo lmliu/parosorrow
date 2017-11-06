@@ -140,6 +140,9 @@ div.button-wrap {
 }
 
 div#digital-download {
+
+  margin-top: 100px;
+
   display: flex;
   justify-content: center;
 }
@@ -172,6 +175,18 @@ img.photo-lib-img {
   margin-right: 20px;
   margin-left: -(10px);
   margin-top: 20px;
+}
+
+/* poetry */
+div#poetry-photos {
+  width: 100%;
+  margin: 0 auto;
+}
+
+img.poetry-elem {
+  width: 300px;
+
+  vertical-align: top;
 }
 
 /* footer */
