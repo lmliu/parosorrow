@@ -11,15 +11,25 @@ html, body {
 }
 
 section.section-body {
-  margin-bottom: 200px;
+  margin-bottom: 175px;
 }
 
 div.section-wrapper {
+  margin: 0 20%;
+}
+
+div.section-wrapper-lg {
   margin: 0 10%;
 }
 
 div#about-wrapper, section#emotion-system {
   display: flex;
+}
+
+@media screen and (max-width: 699px) {
+  section#emotion-system {
+    display: inline-block;
+  }
 }
 
 div#landing-wrapper {
@@ -93,17 +103,15 @@ section#about {
   align-items: center;
 }
 
-
 div#about-wrapper {
   align-items: center;
 }
 
-/* emotion-system */
-section#emotion-system {
-  margin-left: 10%;
-  margin-right: 10%;
+img#about-img {
+  width: 300px;
 }
 
+/* emotion-system */
 div.about-wraps {
   width: 50%;
 }
@@ -159,7 +167,7 @@ div#photo-lib-wrap {
 }
 
 img.photo-lib-img {
-  width: 400px;
+  width: 300px;
   margin-right: 20px;
   margin-left: -(10px);
   margin-top: 20px;
