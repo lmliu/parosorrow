@@ -180,11 +180,11 @@ img.photo-lib-img {
 /* poetry */
 div#poetry-photos {
   width: 100%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 img.poetry-elem {
-  width: 300px;
+  max-width: 300px;
 
   vertical-align: top;
 }
